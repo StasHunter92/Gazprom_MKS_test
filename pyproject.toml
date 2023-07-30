@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gazprom-mks-test"
+version = "0.1.0"
+description = ""
+authors = ["Stanislav Meshcheriakov"]
+readme = "README.md"
+packages = [{include = "gazprom_mks_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.25.0"
+sqlalchemy = "^2.0.19"
+alembic = "^1.11.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
